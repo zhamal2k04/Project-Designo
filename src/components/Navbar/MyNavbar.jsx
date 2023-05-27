@@ -3,8 +3,10 @@ import "./MyNavbar.css";
 
 const MyNavbar  =() =>{
     return(
-        <div>
-
+        <div className="navbar-container">
+            <div className="nav-link">
+                
+            </div>
         </div>
     )
 }
