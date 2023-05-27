@@ -40,3 +40,17 @@
   letter-spacing: 5px;
   cursor: pointer;
 }
+.nav-links > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+  cursor: pointer;
+}
