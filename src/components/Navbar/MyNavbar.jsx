@@ -9,6 +9,9 @@ const MyNavbar  =() =>{
                     <div className="oval"></div>
                     <p>Designo</p>
                 </div>
+                <div className="nav-links">
+                    
+                </div>
             </div>
         </div>
     )
