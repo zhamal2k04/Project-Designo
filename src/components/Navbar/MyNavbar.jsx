@@ -10,7 +10,11 @@ const MyNavbar  =() =>{
                     <p>Designo</p>
                 </div>
                 <div className="nav-links">
-                    
+                    <ul>
+                        <li>Our Company</li>
+                        <li>Locations</li>
+                        <li>Contacts</li>
+                    </ul>
                 </div>
             </div>
         </div>
