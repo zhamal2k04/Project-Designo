@@ -17,6 +17,12 @@ const LinkedCards = () => {
             View Projects <span id="span"></span>
           </p>
         </div>
+        <div className="graphic-design">
+          <h1>Graphic-design</h1>
+          <p>
+            View Projects <span id="span"></span>
+          </p>
+        </div>
       </div>
     </div>
   );
