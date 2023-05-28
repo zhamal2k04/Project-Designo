@@ -18,7 +18,9 @@ const TopCard = () => {
       </div>
       <div className="topcard-right-container">
         <div className="right-oval"></div>
-        
+        <div className="topcard-right-phone">
+          
+        </div>
       </div>
     </div>
   );
