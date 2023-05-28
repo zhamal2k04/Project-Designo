@@ -34,3 +34,28 @@
   gap: 15px;
   align-items: center;
 }
+.card1 > h1,
+.card2 > h1,
+.card3 > h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #333136;
+  text-transform: uppercase;
+}
+
+.card1 > p,
+.card2 > p,
+.card3 > p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333136;
+  text-align: center;
+}
