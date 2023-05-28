@@ -4,7 +4,11 @@ import "../LowerInfos/LowerInfos.css";
 
 const LowerInfos = () =>{
     return(
-        <div></div>
+        <div className="lower-layout-infos">
+                <div className="layout-cards">
+                    
+                </div>
+        </div>
     )
 }
 
