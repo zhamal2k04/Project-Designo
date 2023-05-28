@@ -3,8 +3,10 @@ import "../TopCard/TopCard.css";
 
 const TopCard = () =>{
     return(
-        <div>
-
+        <div className="topcard-container">
+            <div className="topcard-left-container">
+                
+            </div>
         </div>
     )
 }
