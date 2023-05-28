@@ -11,7 +11,9 @@ const LowerCard = () => {
           our expertise can help your business grow.
         </p>
       </div>
-      <div className="lowerCard-right-container"></div>
+      <div className="lowerCard-right-container">
+        <button>Get in Touch</button>
+      </div>
     </div>
   );
 };
