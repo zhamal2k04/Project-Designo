@@ -57,3 +57,28 @@
   background-color: black;
   opacity: 0.9;
 }
+.web-design > h1,
+.graphic-design > h1,
+.app-design > h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.web-design > p,
+.graphic-design > p,
+.app-design > p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
