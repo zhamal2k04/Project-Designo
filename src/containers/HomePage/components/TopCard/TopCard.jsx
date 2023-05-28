@@ -16,6 +16,10 @@ const TopCard = () => {
         </p>
         <button>Learn More</button>
       </div>
+      <div className="topcard-right-container">
+        <div className="right-oval"></div>
+        
+      </div>
     </div>
   );
 };
