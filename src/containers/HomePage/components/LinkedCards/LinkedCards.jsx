@@ -10,6 +10,11 @@ const LinkedCards = () => {
           View Projects <span id="span"></span>
         </p>
       </div>
+      <div className="secondary-linkedCards">
+        <div className="app-design">
+            
+        </div>
+      </div>
     </div>
   );
 };
