@@ -24,3 +24,13 @@
   justify-content: space-evenly;
   text-align: left;
 }
+.card1,
+.card2,
+.card3 {
+  width: 350px;
+  height: 202px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
