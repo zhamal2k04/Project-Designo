@@ -21,3 +21,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
