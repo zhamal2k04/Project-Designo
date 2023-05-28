@@ -67,3 +67,17 @@
   flex-wrap: nowrap;
   flex-grow: none;
 }
+
+.right-oval {
+  width: 640px;
+  height: 640px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.31;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+  border-radius: 50%;
+}
