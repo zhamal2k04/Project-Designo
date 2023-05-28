@@ -82,3 +82,16 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+.app-design {
+  background-image: url("../components/img3.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.graphic-design {
+  background-image: url("../components/img4.svg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 59px;
+}
