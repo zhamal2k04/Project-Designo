@@ -24,7 +24,7 @@
   border-radius: 15px;
   background-color: #0000;
   mix-blend-mode: normal;
-  background-image: url("../components/img2.svg");
+  background-image: url("../images/img2.svg");
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -83,13 +83,13 @@
   color: #ffffff;
 }
 .app-design {
-  background-image: url("../components/img3.svg");
+  background-image: url("../images/img3.svg");
   background-size: cover;
   background-position: center;
 }
 
 .graphic-design {
-  background-image: url("../components/img4.svg");
+  background-image: url("../images/img4.svg");
   background-size: cover;
   background-position: center;
   position: relative;
