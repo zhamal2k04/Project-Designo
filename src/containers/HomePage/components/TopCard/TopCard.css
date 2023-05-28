@@ -81,3 +81,14 @@
   transform: matrix(0, -1, -1, 0, 0, 0);
   border-radius: 50%;
 }
+
+.topcard-right-phone {
+  width: 284px;
+  height: 573px;
+  opacity: 0.9;
+}
+.topcard-right-phone > img {
+  position: relative;
+  right: 155%;
+  top: 99px;
+}
