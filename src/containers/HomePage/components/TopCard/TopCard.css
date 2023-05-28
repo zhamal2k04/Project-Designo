@@ -33,3 +33,13 @@
   line-height: 48px;
   color: #ffffff;
 }
+
+.topcard-left-container > p {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 50px;
+}
