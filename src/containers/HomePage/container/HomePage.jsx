@@ -3,7 +3,7 @@ import "../container/HomePage.css";
 
 const HomePage = () =>{
     return(
-        <div className="layout-container">
+        <div className="homepage-container">
 
         </div>
     )
