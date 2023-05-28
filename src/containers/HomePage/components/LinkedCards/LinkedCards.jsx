@@ -12,7 +12,10 @@ const LinkedCards = () => {
       </div>
       <div className="secondary-linkedCards">
         <div className="app-design">
-            
+          <h1>App Design</h1>
+          <p>
+            View Projects <span id="span"></span>
+          </p>
         </div>
       </div>
     </div>
