@@ -3,8 +3,10 @@ import "../LinkedCards/LinkedCards.css";
 
 const LinkedCards = () =>{
     return (
-        <div>
-
+        <div className="linkedcards-container">
+            <div className="web-design">
+                
+            </div>
         </div>
     )
 }
