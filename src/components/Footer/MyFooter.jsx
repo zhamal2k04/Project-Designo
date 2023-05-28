@@ -3,8 +3,10 @@ import "../Footer/MyFooter.css";
 
 const MyFooter = () =>{
     return (
-        <div>
-
+        <div className="footer-container">
+                <div className="footer-frame">
+                    
+                </div>
         </div>
     )
 }
