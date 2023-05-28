@@ -1,8 +1,8 @@
 import React from "react";
 import "../LowerInfos/LowerInfos.css";
 import man_1 from "../images/man_1.svg";
-import man_1 from "../images/man_2.svg";
-import man_1 from "../images/man_3.svg";
+import man_2 from "../images/man_2.svg";
+import man_3 from "../images/man_3.svg";
 const LowerInfos = () => {
   return (
     <div className="lower-layout-infos">
