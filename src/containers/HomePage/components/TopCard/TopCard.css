@@ -59,3 +59,11 @@
   color: #333136;
   margin-top: 20px;
 }
+
+.topcard-right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: none;
+}
