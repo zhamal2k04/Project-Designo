@@ -1,6 +1,7 @@
 import React from "react";
 import "../MainCards/MainCards.css";
 import card_img_1 from "../images/app-card-2.svg";
+import card_img_2 from "../images/app-card-3.svg";
 const MainCards = () =>{
     return(
         <div className="mainCard-handler">
