@@ -2,6 +2,7 @@ import React from "react";
 import "../MainCards/MainCards.css";
 import card_img_1 from "../images/app-card-2.svg";
 import card_img_2 from "../images/app-card-3.svg";
+import card_img_3 from "../images/app-card-4.svg";
 const MainCards = () =>{
     return(
         <div className="mainCard-handler">
@@ -34,7 +35,7 @@ const MainCards = () =>{
                 </div>
                 <div className="app-card">
                     <div className="card-image" id="cardNum2">
-                        <img src={card_img_2} alt="image" />
+                        <img src={card_img_3} alt="image" />
                     </div>
                     <div className="app-card-text">
                         <div className="app-card-title">
