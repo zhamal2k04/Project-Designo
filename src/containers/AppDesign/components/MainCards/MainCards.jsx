@@ -20,7 +20,7 @@ const MainCards = () =>{
                     </div>
                 </div>
                 <div className="app-card">
-                    <div className="card-image">
+                    <div className="card-image" id="cardNum2">
                         <img src={card_img_2} alt="image" />
                     </div>
                     <div className="app-card-text">
