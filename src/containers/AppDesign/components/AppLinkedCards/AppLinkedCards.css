@@ -21,3 +21,13 @@
   width: 541px;
   height: 640px;
 }
+
+.appLinkedCard-img-0 {
+  background-image: url("./img2.svg");
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
