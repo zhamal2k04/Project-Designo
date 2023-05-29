@@ -9,6 +9,11 @@ const MainCards = () =>{
                     <div className="card-image">
                         <img src={card_img_1} alt="image" />
                     </div>
+                    <div className="app-card-text">
+                        <div className="app-card-title">
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
