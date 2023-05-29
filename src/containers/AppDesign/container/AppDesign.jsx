@@ -1,16 +1,10 @@
 import React from "react";
 import "../container/AppDesign.css";
-
+import AppTopCard from "../components/AppTopCard/AppTopCard";
 const AppDesign = () => {
   return (
     <div className="appDesign-container">
-      <div className="appDesign-main-title">
-        <h1>App Design</h1>
-        <p>
-          Our mobile designs bring intuitive digital solutions <br /> to your
-          customers right at their fingertips.
-        </p>
-      </div>
+        <AppTopCard/>
     </div>
   );
 };
