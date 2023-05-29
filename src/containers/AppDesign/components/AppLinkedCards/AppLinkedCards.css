@@ -60,3 +60,14 @@
   flex-direction: column;
   color: white;
 }
+.appLinkedCard-img-0 > h1,
+.appLinkedCard-img-1 > h1,
+.appLinkedCard-img-2 > h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
