@@ -55,10 +55,10 @@ const MainCards = () =>{
                     </div>
                     <div className="app-card-text">
                         <div className="app-card-title">
-                            <h1>Express</h1>
+                            <h1>Todo</h1>
                         </div>
                         <div className="app-card-p">
-                        <p>Solving the problem of poor indoor air quality by filtering the air</p>
+                        <p>A todo app that features cloud sync with light and dark mode</p>
                         </div>
                     </div>
                 </div>
