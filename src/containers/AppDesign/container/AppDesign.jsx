@@ -3,8 +3,10 @@ import "../container/AppDesign.css";
 
 const AppDesign = () =>{
     return (
-        <div>
+        <div className="appDesign-container">
+            <div className="appDesign-main-title">
 
+            </div>
         </div>
     )
 }
