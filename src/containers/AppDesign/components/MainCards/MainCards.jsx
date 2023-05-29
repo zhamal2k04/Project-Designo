@@ -32,6 +32,19 @@ const MainCards = () =>{
                         </div>
                     </div>
                 </div>
+                <div className="app-card">
+                    <div className="card-image" id="cardNum2">
+                        <img src={card_img_2} alt="image" />
+                    </div>
+                    <div className="app-card-text">
+                        <div className="app-card-title">
+                            <h1>Eyecam</h1>
+                        </div>
+                        <div className="app-card-p">
+                        <p>Product that lets you edit your favorite photos and videos at any time</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
