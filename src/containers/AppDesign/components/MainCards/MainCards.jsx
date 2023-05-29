@@ -5,7 +5,7 @@ const MainCards = () =>{
     return(
         <div className="mainCard-handler">
             <div className="mainCard-container">
-                <div className="card-image">
+                <div className="app-card">
                     
                 </div>
             </div>
