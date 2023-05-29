@@ -57,3 +57,12 @@
   align-items: center;
   text-align: center;
 }
+.app-card-title {
+  width: 286px;
+  height: 26px;
+}
+
+.app-card-p {
+  width: 286px;
+  height: 52px;
+}
