@@ -11,7 +11,8 @@ const AppLinkedCards = () =>{
                 </section>
                 <div className="appLinkedCard-right-container">
                     <section className="appLinkedCard-img-1">
-                        
+                    <h1>App Design</h1>
+                    <p>View Projects <span style={{color: "chocolate"}}>→</span></p>
                     </section>
                 </div>
             </div>
