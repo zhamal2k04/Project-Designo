@@ -31,3 +31,10 @@
   flex-direction: column;
   color: white;
 }
+.appLinkedCard-right-container {
+  width: 541px;
+  height: 640px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
