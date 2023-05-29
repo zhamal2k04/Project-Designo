@@ -39,10 +39,10 @@ const MainCards = () =>{
                     </div>
                     <div className="app-card-text">
                         <div className="app-card-title">
-                            <h1>Eyecam</h1>
+                            <h1>Faceit</h1>
                         </div>
                         <div className="app-card-p">
-                        <p>Product that lets you edit your favorite photos and videos at any time</p>
+                        <p>Get to meet your favorite internet superstar with the faceit app</p>
                         </div>
                     </div>
                 </div>
