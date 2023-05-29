@@ -69,10 +69,10 @@ const MainCards = () =>{
                     </div>
                     <div className="app-card-text">
                         <div className="app-card-title">
-                            <h1>Eyecam</h1>
+                            <h1>Loopstudios</h1>
                         </div>
                         <div className="app-card-p">
-                        <p>Product that lets you edit your favorite photos and videos at any time</p>
+                        <p>A VR experience app made for <br /> Loopstudios</p>
                         </div>
                     </div>
                 </div>
