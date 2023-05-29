@@ -14,7 +14,7 @@ const MainCards = () =>{
                             <h1>Express</h1>
                         </div>
                         <div className="app-card-p">
-                            
+                        <p>Solving the problem of poor indoor air quality by filtering the air</p>
                         </div>
                     </div>
                 </div>
