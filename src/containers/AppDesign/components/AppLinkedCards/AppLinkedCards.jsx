@@ -3,8 +3,10 @@ import "../AppLinkedCards/AppLinkedCards.css";
 
 const AppLinkedCards = () =>{
     return(
-        <div>
-
+        <div className="appLinkedCard-container">
+            <div className="appLinkedCard-left-container">
+                
+            </div>
         </div>
     )
 }
