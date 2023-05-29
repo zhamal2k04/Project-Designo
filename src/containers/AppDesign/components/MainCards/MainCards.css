@@ -78,3 +78,12 @@
   color: #e7816b;
   text-transform: uppercase;
 }
+.app-card-title > p {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+}
