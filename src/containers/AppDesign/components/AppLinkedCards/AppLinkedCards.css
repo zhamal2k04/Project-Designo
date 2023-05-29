@@ -71,3 +71,15 @@
   letter-spacing: 2px;
   color: #ffffff;
 }
+.appLinkedCard-img-0 > p,
+.appLinkedCard-img-1 > p,
+.appLinkedCard-img-2 > p {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
