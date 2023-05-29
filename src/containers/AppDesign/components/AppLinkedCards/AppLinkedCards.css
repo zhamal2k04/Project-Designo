@@ -49,3 +49,14 @@
   flex-direction: column;
   color: white;
 }
+.appLinkedCard-img-2 {
+  background-image: url("./img4.svg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
