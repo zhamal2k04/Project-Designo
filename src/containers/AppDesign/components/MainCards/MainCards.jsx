@@ -34,7 +34,7 @@ const MainCards = () =>{
                     </div>
                 </div>
                 <div className="app-card">
-                    <div className="card-image" id="cardNum2">
+                    <div className="card-image" id="cardNum3">
                         <img src={card_img_3} alt="image" />
                     </div>
                     <div className="app-card-text">
