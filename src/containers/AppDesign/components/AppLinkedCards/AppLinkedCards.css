@@ -23,7 +23,7 @@
 }
 
 .appLinkedCard-img-0 {
-  background-image: url("./img2.svg");
+  background-image: url("../images/img2.svg");
   text-align: center;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@
   flex-direction: column;
 }
 .appLinkedCard-img-1 {
-  background-image: url("./img3.svg");
+  background-image: url("../images/img3.svg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -50,7 +50,7 @@
   color: white;
 }
 .appLinkedCard-img-2 {
-  background-image: url("./img4.svg");
+  background-image: url("../images/img4.svg");
   background-size: cover;
   background-position: center;
   text-align: center;
