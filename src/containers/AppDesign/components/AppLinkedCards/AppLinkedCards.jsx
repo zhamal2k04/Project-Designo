@@ -15,6 +15,9 @@ const AppLinkedCards = () =>{
                     <p>View Projects <span style={{color: "chocolate"}}>→</span></p>
                     </section>
                 </div>
+                <section className="appLinkedCard-img-2">
+                    
+                </section>
             </div>
         </div>
     )
