@@ -66,3 +66,15 @@
   width: 286px;
   height: 52px;
 }
+
+.app-card-title > h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #e7816b;
+  text-transform: uppercase;
+}
