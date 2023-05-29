@@ -87,3 +87,8 @@
   text-align: center;
   color: #333136;
 }
+
+#cardNum2 {
+  background: #34b7a2;
+  border-radius: 15px 15px 0px 0px;
+}
