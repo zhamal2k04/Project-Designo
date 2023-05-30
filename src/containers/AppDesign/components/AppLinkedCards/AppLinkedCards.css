@@ -7,13 +7,12 @@
 }
 .appLinkedCard-container {
   width: 100%;
-  height: 640px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   gap: 20px;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .appLinkedCard-left-container,
@@ -39,6 +38,8 @@
   flex-direction: column;
 }
 .appLinkedCard-img-1 {
+  width: 541px;
+  height: 308px;
   background-image: url("../images/img3.svg");
   background-size: cover;
   background-position: center;
@@ -50,6 +51,8 @@
   color: white;
 }
 .appLinkedCard-img-2 {
+  width: 541px;
+  height: 308px;
   background-image: url("../images/img4.svg");
   background-size: cover;
   background-position: center;

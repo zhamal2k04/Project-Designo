@@ -6,6 +6,7 @@ import MyLayout from "./components/Layout/MyLayout";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./containers/HomePage/container/HomePage";
 import AppDesign from "./containers/AppDesign/container/AppDesign";
+import WebDesign from "./containers/WebDesign/container/WebDesign";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>}/>
           <Route path="/app-design" element={<AppDesign/>}/>
+          <Route path="/web-design" element={<WebDesign/>}/>
         </Routes>
       </MyLayout>
     </div>
