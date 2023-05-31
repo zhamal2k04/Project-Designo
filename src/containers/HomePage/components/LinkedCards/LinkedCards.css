@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.linkedCards-container {
+.webLinkedCards-container {
   width: 100%;
   height: 640px;
   margin-top: 32rem;
@@ -35,16 +35,16 @@
   opacity: 0.9;
 }
 
-.secondary-linkedCards {
+.secondary-webLinkedCards {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .app-design,
 .graphic-design {
   width: 541px;
-  height: 400px;
+  height: 308px;
   border-radius: 15px;
   background-color: #0000;
   mix-blend-mode: normal;
@@ -92,6 +92,4 @@
   background-image: url("../images/img4.svg");
   background-size: cover;
   background-position: center;
-  position: relative;
-  top: 59px;
 }

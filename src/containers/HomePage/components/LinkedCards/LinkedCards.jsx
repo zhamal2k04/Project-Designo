@@ -3,14 +3,14 @@ import "../LinkedCards/LinkedCards.css";
 
 const LinkedCards = () => {
   return (
-    <div className="linkedCards-container">
+    <div className="webLinkedCards-container">
       <div className="web-design">
         <h1>Web Design</h1>
         <p>
           View Projects <span id="span"></span>
         </p>
       </div>
-      <div className="secondary-linkedCards">
+      <div className="secondary-webLinkedCards">
         <div className="app-design">
           <h1>App Design</h1>
           <p>
