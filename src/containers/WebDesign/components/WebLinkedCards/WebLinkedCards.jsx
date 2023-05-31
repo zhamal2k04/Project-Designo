@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../WebLinkedCards/WebLinkedCards.css";
 
 const WebLinkedCards = () => {
@@ -6,22 +7,22 @@ const WebLinkedCards = () => {
     <div className="linkedCards-container">
       <div className="web-design">
         <h1>Web Design</h1>
-        <p>
+        <Link to="/web-design">
           View Projects <span id="span"></span>
-        </p>
+        </Link>
       </div>
       <div className="secondary-linkedCards">
         <div className="app-design">
           <h1>App Design</h1>
-          <p>
+          <Link to="/app-design">
             View Projects <span id="span"></span>
-          </p>
+          </Link>
         </div>
         <div className="graphic-design">
           <h1>Graphic-design</h1>
-          <p>
+          <Link tp="/graphic-design">
             View Projects <span id="span"></span>
-          </p>
+          </Link>
         </div>
       </div>
     </div>

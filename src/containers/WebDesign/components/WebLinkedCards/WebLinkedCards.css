@@ -70,9 +70,9 @@
   text-transform: uppercase;
 }
 
-.web-design > p,
-.graphic-design > p,
-.app-design > p {
+.web-design > a,
+.graphic-design > a,
+.app-design > a {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -81,6 +81,7 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #ffffff;
+  text-decoration: none;
 }
 .app-design {
   background-image: url("../images/img3.svg");
@@ -93,3 +94,9 @@
   background-size: cover;
   background-position: center;
 }
+
+.web-design > a:hover,
+.graphic-design > a:hover,
+.app-design > a:hover{
+  cursor: pointer;
+} 

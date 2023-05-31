@@ -1,25 +1,26 @@
 import React from "react";
-import "../AppLinkedCards/AppLinkedCards.css";
 import { Link } from "react-router-dom";
-const AppLinkedCards = () => {
+import "../GraphicLinkedCards/GraphicLinkedCards.css";
+
+const GraphicLinkedCards = () => {
   return (
-    <div className="appLinkedCard-container">
-      <div className="appLinkedCard-left-container">
-        <section className="appLinkedCard-img-0">
+    <div className="graphicLinkedCard-container">
+      <div className="graphicLinkedCard-left-container">
+        <section className="graphicLinkedCard-img-0">
           <h1>Web Design</h1>
           <Link to="/web-design">
             View Projects <span style={{ color: "chocolate" }}>→</span>
           </Link>
         </section>
       </div>
-      <div className="appLinkedCard-right-container">
-        <section className="appLinkedCard-img-1">
+      <div className="graphicLinkedCard-right-container">
+        <section className="graphicLinkedCard-img-1">
           <h1>App Design</h1>
-          <Link to ="/app-design">
+          <Link to="/app-design">
             View Projects <span style={{ color: "chocolate" }}>→</span>
           </Link>
         </section>
-        <section className="appLinkedCard-img-2">
+        <section className="graphicLinkedCard-img-2">
           <h1>Graphic Design</h1>
           <Link to="/graphic-design">
             View Projects <span style={{ color: "chocolate" }}>→</span>
@@ -29,4 +30,4 @@ const AppLinkedCards = () => {
     </div>
   );
 };
-export default AppLinkedCards;
+export default GraphicLinkedCards;

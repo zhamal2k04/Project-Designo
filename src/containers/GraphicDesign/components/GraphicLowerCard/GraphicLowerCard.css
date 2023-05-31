@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.graphicLowerCard-container {
+  width: 80%;
+  height: 300px;
+  background: #e7816b;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 95px;
+  position: relative;
+  left: 14%;
+  justify-content: space-between;
+  margin-top: 31rem;
+}
+
+.graphic-text-title {
+  width: 250px;
+  height: 98px;
+}
+.graphic-text-title > h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.graphic-text-paragraph {
+  width: 459px;
+  height: 52px;
+}
+
+.graphic-text-paragraph > p {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: left;
+}
+
+#graphic-btn {
+  width: 152px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  cursor: pointer;
+}
