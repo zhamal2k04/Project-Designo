@@ -57,4 +57,15 @@
   border: none;
   text-transform: uppercase;
   border-radius: 8px;
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
+  transform: scale(1);
+}
+
+.lowerCard-right-container > button:hover {
+  background: #ffad9b;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
 }

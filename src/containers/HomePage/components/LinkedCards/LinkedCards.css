@@ -21,10 +21,6 @@
 .web-design {
   width: 541px;
   height: 640px;
-  border-radius: 15px;
-  background-color: #0000;
-  mix-blend-mode: normal;
-  background-image: url("../images/img2.svg");
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -33,7 +29,25 @@
   align-items: center;
   background-color: black;
   opacity: 0.9;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+  position: relative;
 }
+
+.web-design:hover {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #ff512f, #f09819);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-radius: 15px;
+  transform: scale(1.1);
+  right: 20px;
+  cursor: zoom-in;
+}
+
 
 .secondary-webLinkedCards {
   display: flex;
@@ -56,7 +70,25 @@
   align-items: center;
   background-color: black;
   opacity: 0.9;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+  position: relative;
+  cursor: zoom-in;
 }
+
+.app-design:hover,
+.graphic-design:hover {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #ff512f, #f09819);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-radius: 15px;
+  transform: scale(1.1);
+  left: 20px;
+}
+
 .web-design > h1,
 .graphic-design > h1,
 .app-design > h1 {
@@ -80,7 +112,7 @@
   line-height: 22px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  text-decoration:none;
+  text-decoration: none;
   color: #ffffff;
 }
 .app-design {
@@ -94,6 +126,15 @@
   background-size: cover;
   background-position: center;
 }
-.web-design>a:hover, .app-design>a:hover, .graphic-design>a:hover{
-  cursor:pointer;
+.web-design > a:hover,
+.app-design > a:hover,
+.graphic-design > a:hover {
+  cursor: pointer;
+}
+
+#span{
+  color: wheat;
+  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  font-size: 1.44rem;
 }
