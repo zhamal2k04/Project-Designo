@@ -23,6 +23,20 @@
   gap: 20px;
 }
 
+.cardNum1>img{
+  transform: rotate(0deg);
+  transition: 0.4s ease-in-out;
+}
+
+.cardNum1>img:hover{
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+.cardNum1:nth-child(2)>img:hover{
+  transform: rotate(-360deg);
+  cursor: pointer;
+}
+
 .cardNum1 > h1 {
   margin-top: 48px;
   font-family: "Jost", sans-serif;
@@ -53,4 +67,14 @@
   color: #ffffff;
   outline: none;
   border: none;
+  transform: scale(1);
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+#btn-loc:hover{
+  background-color: #f3a998;
+  transform: scale(1.1);
+  cursor: pointer;
+  color: black;
 }
