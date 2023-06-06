@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.webLinkedCards-container {
+  width: 100%;
+  height: 640px;
+  margin-top: 32rem;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.web-design {
+  width: 541px;
+  height: 640px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+  position: relative;
+}
+
+.web-design:hover {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #ff512f, #f09819);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-radius: 15px;
+  transform: scale(1.1);
+  right: 20px;
+  cursor: zoom-in;
+}
+
+
+.secondary-webLinkedCards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app-design,
+.graphic-design {
+  width: 541px;
+  height: 308px;
+  border-radius: 15px;
+  background-color: #0000;
+  mix-blend-mode: normal;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+  position: relative;
+  cursor: zoom-in;
+}
+
+.app-design:hover,
+.graphic-design:hover {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #ff512f, #f09819);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-radius: 15px;
+  transform: scale(1.1);
+  left: 20px;
+}
+
+.web-design > h1,
+.graphic-design > h1,
+.app-design > h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.web-design > a,
+.graphic-design > a,
+.app-design > a {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.app-design {
+  background-image: url("../images/img3.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.graphic-design {
+  background-image: url("../images/img4.svg");
+  background-size: cover;
+  background-position: center;
+}
+.web-design > a:hover,
+.app-design > a:hover,
+.graphic-design > a:hover {
+  cursor: pointer;
+}
+
+#span{
+  color: wheat;
+  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  font-size: 1.44rem;
+}

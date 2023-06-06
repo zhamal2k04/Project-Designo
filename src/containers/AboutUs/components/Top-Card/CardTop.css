@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardTop-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 14%;
+}
+
+.cardTop-left {
+  width: 45%;
+  height: 480px;
+  background: #e7816b;
+  border-radius: 15px 0px 0px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 32px;
+  padding: none;
+}
+
+.cardTop-right,
+.cardTop-right > img {
+  width: 50%;
+  height: 480px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.cardTop-title {
+  width: 540px;
+  height: 48px;
+}
+
+.cardTop-paragraph {
+  width: 458px;
+  height: 130px;
+}
+
+.cardTop-title > h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.cardTop-paragraph > p {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  position: relative;
+  right: 40px;
+}
+.cardTop-oval {
+  width: 540px;
+  height: 480px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.31;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  left: 364px;
+}

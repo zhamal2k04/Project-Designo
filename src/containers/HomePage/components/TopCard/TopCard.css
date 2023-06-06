@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topcard-container {
+  width: 100%;
+  height: 632px;
+  background: #e7816b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem;
+  margin-top: 6rem;
+}
+
+.topcard-left-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topcard-left-container > h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.topcard-left-container > p {
+  margin-top: 50px;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  position: relative;
+  right: 20px;
+}
+
+.topcard-left-container > button {
+  width: 152px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-family: "Jost", sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  margin-top: 20px;
+  position: relative;
+  right: 160px;
+  transition: 0.4s ease-in-out;
+  transform: scale(1);
+  overflow: hidden;
+}
+
+.topcard-left-container > button:hover {
+  background: #ffad9b;
+  border-radius: 8px;
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+}
+
+.topcard-right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: none;
+}
+
+.right-oval {
+  width: 640px;
+  height: 640px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.31;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+  border-radius: 50%;
+  animation: animate 4s infinite;
+  position: relative;
+}
+
+/* @keyframes animate {
+  0% {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  50% {
+    left: 290px;
+    background-color: #ffad9b;
+  }
+  75% {
+    right: 290px;
+    background-color: #e7816b;
+  }
+  100% {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(93, 2, 2, 0.0001) 0%,
+      rgba(93, 2, 2, 0.497569) 100%
+    );
+  }
+} */
+
+.topcard-right-phone {
+  width: 284px;
+  height: 573px;
+  opacity: 0.9;
+}
+
+/* @keyframes anim {
+  0% {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+} */
+
+.topcard-right-phone > img {
+  position: relative;
+  right: 155%;
+  top: 99px;
+  animation: anim 4s infinite;
+  position: relative;
+  transform: scale(1);
+}
