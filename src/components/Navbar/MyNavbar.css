@@ -81,3 +81,8 @@
   color: #333136;
   text-decoration: none;
 }
+
+#user-logo>img{
+  width: 30px;
+  height: 20px;
+}

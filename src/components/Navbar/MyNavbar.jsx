@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./MyNavbar.css";
-
+import user_logo from "../Images/user.svg"
 const MyNavbar  =() =>{
     return(
         <div className="navbar-container">
@@ -15,8 +15,8 @@ const MyNavbar  =() =>{
                         <Link to={"/about-us"}>Our Company</Link>
                         <Link to={'/our-locations'}>Locations</Link>
                         <Link>Contacts</Link>
-                        <Link>
-                            <img src="" alt="" />
+                        <Link id="user-logo">
+                            <img src={user_logo} alt="usr-logo" />
                         </Link>
                     </ul>
                 </div>
