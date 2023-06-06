@@ -51,6 +51,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: hidden;
+  transition: 0.4s ease-in;
 }
 .web-card-title {
   width: 286px;
@@ -84,12 +86,8 @@
 }
 
 .web-card-text:hover {
-  background: #e7816b;
+  background: #e7a798;
   border-radius: 0px 0px 15px 15px;
   color: white;
   cursor: pointer;
 }
-.web-card-title:hover{
-  color: white;
-}
-

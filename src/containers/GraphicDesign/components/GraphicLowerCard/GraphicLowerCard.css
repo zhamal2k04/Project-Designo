@@ -66,4 +66,15 @@
   text-transform: uppercase;
   color: #333136;
   cursor: pointer;
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
+  transform: scale(1);
+}
+
+#graphic-btn:hover {
+  background: #ffad9b;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
 }

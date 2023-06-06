@@ -54,6 +54,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: hidden;
+  transition: 0.4s ease-in;
 }
 .graphic-card-title {
   width: 286px;
@@ -66,7 +68,7 @@
 }
 
 .graphic-card-title > h1 {
-  font-family: "Jost";
+  font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -94,6 +96,13 @@
   justify-content: center;
   align-items: center;
 }
-.card-image1>img{
+.card-image1 > img {
   border-radius: 15px 15px 0px 0px;
+}
+
+.graphic-card-text:hover {
+  background: #e7a798;
+  border-radius: 0px 0px 15px 15px;
+  color: white;
+  cursor: pointer;
 }

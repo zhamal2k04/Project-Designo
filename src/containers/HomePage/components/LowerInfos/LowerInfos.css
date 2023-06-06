@@ -35,29 +35,12 @@
   align-items: center;
 }
 
-.card1 > img:hover,
-.card2 > img:hover,
-.card3 > img:hover {
-  width: 350px;
-  height: 202px;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 2, 2, 0.0001) 0%,
-    rgba(93, 2, 2, 0.497569) 100%
-  );
-  mix-blend-mode: normal;
-  opacity: 0.2;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .card1 > h1,
 .card2 > h1,
 .card3 > h1 {
-  font-family: "Jost";
+  font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -71,7 +54,7 @@
 .card1 > p,
 .card2 > p,
 .card3 > p {
-  font-family: "Jost";
+  font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

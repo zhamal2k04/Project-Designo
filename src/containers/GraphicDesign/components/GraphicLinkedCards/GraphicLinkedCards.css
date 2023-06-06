@@ -29,6 +29,11 @@
   align-items: center;
   flex-direction: column;
   color: white;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+  position: relative;
+  cursor: zoom-in;
 }
 .graphicLinkedCard-right-container {
   width: 541px;
@@ -49,6 +54,11 @@
   align-items: center;
   flex-direction: column;
   color: white;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+  position: relative;
+  cursor: zoom-in;
 }
 .graphicLinkedCard-img-2 {
   width: 541px;
@@ -62,6 +72,11 @@
   align-items: center;
   flex-direction: column;
   color: white;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+  position: relative;
+  cursor: zoom-in;
 }
 .graphicLinkedCard-img-0 > h1,
 .graphicLinkedCard-img-1 > h1,
@@ -88,6 +103,32 @@
   text-decoration: none;
 }
 
-.web-design>a:hover, .app-design>a:hover, .graphic-design>a:hover{
-  cursor:pointer;
+.web-design > a:hover,
+.app-design > a:hover,
+.graphic-design > a:hover {
+  cursor: pointer;
+}
+
+.graphicLinkedCard-img-0:hover {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #ff512f, #f09819);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-radius: 15px;
+  transform: scale(1.1);
+  right: 20px;
+  cursor: zoom-in;
+}
+
+.graphicLinkedCard-img-1:hover,
+.graphicLinkedCard-img-2:hover {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #ff512f, #f09819);
+  background: linear-gradient(to right, #ff512f, #f09819);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-radius: 15px;
+  transform: scale(1.1);
+  left: 20px;
 }
