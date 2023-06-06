@@ -15,7 +15,7 @@ const MyNavbar  =() =>{
                         <Link to={"/about-us"}>Our Company</Link>
                         <Link to={'/our-locations'}>Locations</Link>
                         <Link>Contacts</Link>
-                        <Link id="user-logo">
+                        <Link to={"/login"} id="user-logo">
                             <img src={user_logo} alt="usr-logo" />
                         </Link>
                     </ul>

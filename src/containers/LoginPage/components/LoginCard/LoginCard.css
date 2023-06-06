@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginCard-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.loginCard-left {
+    width: 570px;
+    height: 787px;
+    border-radius: 20px;
+    background-image: url('../../images/image.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.loginCard-right {
+    width: 449px;
+    height: 787px;
+    display: flex;
+    flex-direction: column;
+    background-color: #112;
+    border-radius: 20px;
+}
+
+.title-content {
+    width: 449px;
+    height: 241px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+}
+
+.title-content>h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+    position: relative;
+    right: 10px;
+}
+
+.title-content>p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #94A3B8;
+}
+
+#google-btn {
+    width: 444px;
+    height: 60px;
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    background-color: #1E293B;
+    border-radius: 30px;
+}
+
+#google-btn>img {
+    width: 24px;
+    height: 23px;
+    border-radius: 20px;
+}
+
+#google-btn>span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.input-content{
+    margin-top: 25px;
+    width: 449px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    background-color: #989898;
+    text-align: left;
+
+}
+
+.form-signup{
+    text-align: left;
+    padding: 1rem;
+}
+
+.form-signup>p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+.form-signup>input{
+    width: 449px;
+    height: 60px;
+    border-radius: 35px;
+    border: 1px solid #94A3B8;
+    background: #334155;
+    text-align: left;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}

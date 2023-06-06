@@ -8,6 +8,7 @@ import WebDesign from "./containers/WebDesign/container/WebDesign";
 import GraphicDesign from "./containers/GraphicDesign/container/GraphicDesign";
 import AboutUs from "./containers/AboutUs/container/AboutUs";
 import OurLocations from "./containers/Locations/container/OurLocations";
+import LoginPage from "./containers/LoginPage/container/LoginPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/graphic-design" element={<GraphicDesign/>}/>
           <Route path="/about-us" element={<AboutUs/>}/>
           <Route path="/our-locations" element={<OurLocations/>}/>
+          <Route path="/login" element={<LoginPage/>}/>
         </Routes>
       </MyLayout>
     </div>
