@@ -25,6 +25,8 @@ const LoginCard = () => {
                         <p>Password</p>
                         <input type="password" placeholder='*********' />
                     </form>
+                    <span>Forgot the Password?</span>
+                    <button id='sign-btn'>Sign Up</button>
                 </div>
             </div>
         </div>
