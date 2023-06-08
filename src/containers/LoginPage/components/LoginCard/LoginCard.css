@@ -7,11 +7,14 @@
 }
 
 .loginCard-container {
+    padding: 5rem;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background: #E7816B;
 }
 
 .loginCard-left {
@@ -114,6 +117,7 @@
     align-items: center;
     background-color: #1E293B;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 #google-btn>img {
@@ -181,18 +185,15 @@
     color: #334155;
 }
 
-.input-content>span:hover {
-    color: rgb(52, 52, 252);
-    cursor: help;
-    text-decoration: underline;
-}
 
 #sign-btn {
     width: 449px;
     height: 70px;
     border-radius: 10px;
     background-color: #7E9999;
-    border: 1px solid #94A3B8;
+    background: -webkit-linear-gradient(to right, #7E9999, #6e96ce);
+    background: linear-gradient(to right, #7E9999, #6e96ce);
+    border: 1px solid #4173b8;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
@@ -200,4 +201,15 @@
     color: white;
     margin-top: 15px;
     letter-spacing: 2px;
+}
+
+.input-content>span:hover {
+    color: rgb(52, 52, 252);
+    cursor: help;
+    text-decoration: underline;
+}
+
+#google-btn:hover{
+    text-decoration: underline;
+    color: white;
 }
