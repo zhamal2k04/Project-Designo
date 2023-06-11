@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@
 }
 
 .locLowerCard-container {
-    margin-top: 23rem;
+  margin-top: 6rem;
   width: 80%;
   height: 300px;
   background: #e7816b;
@@ -25,7 +26,8 @@
   width: 250px;
   height: 98px;
 }
-.location-text-title > h1 {
+
+.location-text-title>h1 {
   font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -40,7 +42,7 @@
   height: 52px;
 }
 
-.location-text-paragraph > p {
+.location-text-paragraph>p {
   font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 400;

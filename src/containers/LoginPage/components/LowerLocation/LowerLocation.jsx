@@ -11,21 +11,21 @@ const LowerLocation = () => {
                 <div className="CardNumber1">
                     <img src={locationImg1} alt="loc-img" />
                     <h1>Canada</h1>
-                    <Link>
+                    <Link to={'/our-locations'}>
                         <button id="btn-loc">See Location</button>
                     </Link>
                 </div>
                 <div className="CardNumber1">
                     <img src={locationImg2} alt="loc-img" />
                     <h1>Australia</h1>
-                    <Link>
+                    <Link to={'/our-locations'}>
                         <button id="btn-loc">See Location</button>
                     </Link>
                 </div>
                 <div className="CardNumber1">
                     <img src={locationImg3} alt="loc-img" />
                     <h1>United Kingdom</h1>
-                    <Link>
+                    <Link to={"/our-locations"}>
                         <button id="btn-loc">See Location</button>
                     </Link>
                 </div>

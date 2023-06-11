@@ -85,6 +85,13 @@
   font-weight: 700;
   line-height: 26px;
   color: rgb(116, 116, 116);
+  position: relative;
+  right: 6rem;
+}
+
+.footer-address>ul>li:last-child {
+  position: relative;
+  left: 13px;
 }
 
 .footer-social-links {
@@ -105,16 +112,35 @@
   font-weight: 700;
   line-height: 26px;
   color: rgb(116, 116, 116);
+  position: relative;
+  right: 6rem;
+}
+
+.footer-contacts>ul>li:last-child {
+  position: relative;
+  left: 8px;
+}
+
+.footer-contacts>ul>li:nth-child(2){
+  position: relative;
+  right: 10px;  
 }
 
 .footer-address>ul li:hover,
 .footer-contacts>ul li:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: rgb(170, 169, 169);;
+  color: rgb(170, 169, 169);
+  ;
 }
 
 .footer-social-links>img {
   width: 24px;
   height: 24px;
+}
+
+.footer-social-links>img:hover{
+  opacity: .4;
+  cursor: pointer;
+
 }

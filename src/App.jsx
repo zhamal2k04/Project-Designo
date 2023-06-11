@@ -9,12 +9,15 @@ import GraphicDesign from "./containers/GraphicDesign/container/GraphicDesign";
 import AboutUs from "./containers/AboutUs/container/AboutUs";
 import OurLocations from "./containers/Locations/container/OurLocations";
 import LoginPage from "./containers/LoginPage/container/LoginPage";
+import ContactPage from "./containers/Contacts/container/ContactPage";
+
 
 function App() {
   return (
     <div>
       <MyLayout>
         <Routes>
+
           <Route path="/home" element={<HomePage/>}/>
           <Route path="/app-design" element={<AppDesign/>}/>
           <Route path="/web-design" element={<WebDesign/>}/>
@@ -22,6 +25,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs/>}/>
           <Route path="/our-locations" element={<OurLocations/>}/>
           <Route path="/login" element={<LoginPage/>}/>
+          <Route path="/contacts" element={<ContactPage/>}/>
         </Routes>
       </MyLayout>
     </div>

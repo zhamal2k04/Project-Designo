@@ -6,7 +6,7 @@ import locationImg3 from "../../images/UK.svg";
 import { Link } from "react-router-dom";
 const LocationCards = () => {
   return (
-    <div className="lowerLocation-container">
+    <div className="location-container">
       <div className="cardsHolder">
         <div className="cardNum1">
           <img src={locationImg1} alt="loc-img" />

@@ -74,7 +74,7 @@ const LoginCard = () => {
         }
     }
 
-    const submitHandler = (e) =>{
+    const submitHandler = (e) => {
         e.preventDefault()
         console.log(`First & Last Name: ${name}\nEmail: ${email}\nPassword: ${password}`)
     }
@@ -103,8 +103,8 @@ const LoginCard = () => {
                         {(passwordDirty && passwordError) && <div style={{ color: 'red' }}>{passwordError}</div>}
                         <input onChange={e => passwordHandler(e)} value={password} onBlur={e => blurHandler(e)} type="password" name='password' placeholder='*********' />
                         <button onClick={submitHandler} disabled={!formValid} type='submit' id='sign-btn'>Sign Up</button>
+                        <span>Forgot the Password?</span>
                     </form>
-                    <span>Forgot the Password?</span>
                 </div>
             </div>
         </div>
