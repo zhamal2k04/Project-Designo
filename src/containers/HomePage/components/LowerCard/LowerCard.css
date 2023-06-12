@@ -17,6 +17,7 @@
   align-items: center;
   position: relative;
   left: 14%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .lowerCard-left-container {
   width: 459px;

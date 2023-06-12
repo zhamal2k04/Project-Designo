@@ -19,6 +19,7 @@
   align-items: center;
   text-align: center;
   gap: 1rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .appTopCard-main-title > h1 {
   font-family: "Jost", sans-serif;

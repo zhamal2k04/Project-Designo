@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -18,14 +19,16 @@
   position: relative;
   left: 14%;
   justify-content: space-between;
-  margin-top: 31rem;
+  margin-top: 26rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .graphic-text-title {
   width: 250px;
   height: 98px;
 }
-.graphic-text-title > h1 {
+
+.graphic-text-title>h1 {
   font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -40,7 +43,7 @@
   height: 52px;
 }
 
-.graphic-text-paragraph > p {
+.graphic-text-paragraph>p {
   font-family: "Jost", sans-serif;
   font-style: normal;
   font-weight: 400;

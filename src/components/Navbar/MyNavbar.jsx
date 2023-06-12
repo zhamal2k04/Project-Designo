@@ -12,12 +12,12 @@ const MyNavbar  =() =>{
                 </div>
                 <div className="nav-links">
                     <ul>
-                        <Link to={"/about-us"}>Our Company</Link>
-                        <Link to={'/our-locations'}>Locations</Link>
-                        <Link to={"/contacts"}>Contact</Link>
                         <Link to={"/login"} id="user-logo">
                             <img src={user_logo} alt="usr-logo" />
                         </Link>
+                        <Link to={"/about-us"}>Our Company</Link>
+                        <Link to={'/our-locations'}>Locations</Link>
+                        <Link to={"/contacts"}>Contact</Link>
                     </ul>
                 </div>
             </div>

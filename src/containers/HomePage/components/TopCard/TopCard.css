@@ -16,6 +16,7 @@
   justify-content: space-evenly;
   padding: 2rem;
   margin-top: 6rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .topcard-left-container {
@@ -161,4 +162,6 @@
   animation: anim 4s infinite;
   position: relative;
   transform: scale(1);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 35px 35px 0px 0px;
 }
