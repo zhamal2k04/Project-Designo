@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Project-Designo/static/css/main.980344b4.css",
-    "main.js": "/Project-Designo/static/js/main.088d8fc1.js",
+    "main.css": "/Project-Designo/static/css/main.921553c1.css",
+    "main.js": "/Project-Designo/static/js/main.ac6d7ade.js",
     "static/media/card-img03.svg": "/Project-Designo/static/media/card-img03.9153eda36f724d6926e03faf6939e92c.svg",
     "static/media/card-img02.svg": "/Project-Designo/static/media/card-img02.d524b3b6533b298e851315d9deed0bbc.svg",
     "static/media/app-card-3.svg": "/Project-Designo/static/media/app-card-3.7c27010eeaa7fa7ce3fd9df35806b175.svg",
@@ -41,11 +41,11 @@
     "index.html": "/Project-Designo/index.html",
     "static/media/yt.svg": "/Project-Designo/static/media/yt.0ca70da44ca3fca023a62ee9a1d46934.svg",
     "static/media/fcb.svg": "/Project-Designo/static/media/fcb.09ec70604db64a65cee24143816c1081.svg",
-    "main.980344b4.css.map": "/Project-Designo/static/css/main.980344b4.css.map",
-    "main.088d8fc1.js.map": "/Project-Designo/static/js/main.088d8fc1.js.map"
+    "main.921553c1.css.map": "/Project-Designo/static/css/main.921553c1.css.map",
+    "main.ac6d7ade.js.map": "/Project-Designo/static/js/main.ac6d7ade.js.map"
   },
   "entrypoints": [
-    "static/css/main.980344b4.css",
-    "static/js/main.088d8fc1.js"
+    "static/css/main.921553c1.css",
+    "static/js/main.ac6d7ade.js"
   ]
 }
