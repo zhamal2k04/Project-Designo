@@ -17,7 +17,6 @@ function App() {
     <div>
       <MyLayout>
         <Routes>
-
           <Route path="/home" element={<HomePage/>}/>
           <Route path="/app-design" element={<AppDesign/>}/>
           <Route path="/web-design" element={<WebDesign/>}/>

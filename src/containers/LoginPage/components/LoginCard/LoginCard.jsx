@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import "../LoginCard/LoginCard.css"
-import google_icon from "../../images/google-icon.png"
-import { useState } from 'react'
+import { useState } from 'react';
+import SignIn from '../../GoogleSignIn/SignIn';
+
 const LoginCard = () => {
     const [name, setName] = useState('')
     const [nameDirty, setNameDirty] = useState(false)
@@ -24,8 +25,8 @@ const LoginCard = () => {
 
     const nameHandler = (e) => {
         setName(e.target.value)
-        if (e.target.value.length < 3 || e.target.value.length > 15) {
-            setNameError('Name hole should be more than 3 or 15')
+        if (e.target.value.length < 3 || e.target.value.length > 30) {
+            setNameError('Name hole should be more than 3 or 30')
             if (!e.target.value) {
                 setNameError("Name Hole Cannot be Empty")
             }
@@ -86,10 +87,7 @@ const LoginCard = () => {
                 <div className="title-content">
                     <h1>Join us Today 👋</h1>
                     <p>Clarity gives you the blocks and components you need to create a truly professional website.</p>
-                    <button id='google-btn'>
-                        <img src={google_icon} alt="icon" />
-                        <span>Sign up with Google</span>
-                    </button>
+                    <SignIn />
                 </div>
                 <div className="input-content">
                     <form className='form-signup'>

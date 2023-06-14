@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logOut-container {
+    position: relative;
+    bottom: 15px;
+    width: 449px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 1.33rem;
+}
+
+.logOut-container>h1 {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.logOut-container>button {
+    width: 444px;
+    height: 60px;
+    background-color: #1E293B;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    position: relative;
+    top: 10px;
+}
+
+.logOut-container>button:hover {
+    text-decoration: underline;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
